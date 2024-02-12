@@ -977,7 +977,7 @@ namespace cryptonote
           }
         }
       }
-      if (blob_type == BLOB_TYPE_CRYPTONOTE_XLA && major_version >= 13) FIELD(signature)
+      if (blob_type == BLOB_TYPE_CRYPTONOTE_XLA && major_version >= 16) FIELD(signature)
       if (blob_type == BLOB_TYPE_CRYPTONOTE_VEIL && major_version >= 14) FIELD(signature)
 
     END_SERIALIZE()
